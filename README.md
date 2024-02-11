@@ -2,7 +2,7 @@
 
 A custom node for ComfyUI to create a prompt based on a list of keywords saved in CSV files.
 
-<img src="https://img.shields.io/badge/ComfyUI-2.8.0-green" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/Custom Node-1.0.0.Stable-orange" /> [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+<img src="https://img.shields.io/badge/ComfyUI-green" /> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/Custom Node-1.0.0.Stable-orange" /> [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 This node was inspired by PCMonsterx's [ComfyUI-CSV-Loader](https://github.com/PCMonsterx/ComfyUI-CSV-Loader) and by modifications and additions made by [Adel AI](https://www.facebook.com/AI.ArtByAdel). **Thanks to them!**
 
