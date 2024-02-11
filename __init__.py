@@ -6,12 +6,12 @@
 # [x] Select separator for each field
 # [x] Allow CSV files not listed
 # [x] Add weight for each category
-# [ ] Add presets for save selection
+# [x] Add presets for save selection
 # [ ] Add random choice for each field
 # [ ] Add random choice globly
-# [ ] Let user update the prompt before running
+# [X] Let user update the prompt before running
 # [ ] Allow multiple choice by category
-# [ ] Add output to list selection by category
+# [X] Add output to list selection by category
 # (eg: Styles: Action Photograph, Effects: [Vignette, Blur'])
 # [ ] Let user update the order of categories
 
