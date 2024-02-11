@@ -39,7 +39,7 @@ The _positive.csv_ and _negative.csv_ files will appear at the end of the list.
 
 The CSV files used must comply with the following characteristics:
 - be encoded in UTF-8
-- include a header line consisting of NAME, PROMPT, NEGATIVE_PROMPT (negative prompt are not used for the moment!)
+- include a header line consisting of name,prompt,negative_prompt (negative prompt are not used for the moment!)
 - use a comma as a separator and " as a delimiter 
 
 ## Features
