@@ -326,7 +326,7 @@ def read_presets() -> list:
         console_log(f"JSON file '{PRESETS_FILE.name}' is not readable.", ERROR)
         return []
     except FileNotFoundError:
-        console_log(f"JSON file '{PRESETS_FILE.name}' not found.", ERROR)
+        console_log(f"JSON file '{PRESETS_FILE.name}' not found.")
         return []
 
     return presets
