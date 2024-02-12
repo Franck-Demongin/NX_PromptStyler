@@ -1,5 +1,6 @@
 # local files
 presets.json
+CSV/*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
