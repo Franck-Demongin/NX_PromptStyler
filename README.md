@@ -22,8 +22,8 @@ Restart ComfyUI. ***NX_PromptStyler*** should be available in the ***NX_Nodes***
 
 ## Note about CSV
 
-The node detects CSV files placed in the `CSV` subfolder. 
-8 files are automatically taken into account and classified in a predetermined order: 
+The node detects CSV files placed in the _CSV_ subfolder. 
+Copy files from CSV_default to CSV folder. They are automatically taken into account and classified in a predetermined order: 
 1. _style.csv_
 2. _framing.csv_
 3. _cameras.csv_
