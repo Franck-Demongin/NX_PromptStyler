@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 import csv
 import json
+from typing import List
 
 from server import PromptServer
 from aiohttp import web
@@ -99,7 +100,7 @@ def read_csv(path_csv: Path) -> list[dict]:
         sys.exit()
     return list_dict
 
-def get_col(list_dict: list[dict], col_name: str = "name") -> list[str] or None:
+def get_col(list_dict: list[dict], col_name: str = "name") -> List[str] or None:
     ''' Get column list from CSV file 
     list_dict: list of dictionaries
     col_name: name of column
@@ -120,7 +121,7 @@ def get_row(list_dict: list, value: str) -> dict or None:
             return row
     return None
 
-def order_csv(dict_list: dict, order: list[str]) -> dict:
+def order_csv(dict_list: dict, order: List[str]) -> dict:
     ''' Order CSV file 
     dict_list: list of dictionaries
     order: list of keys
@@ -142,7 +143,7 @@ def order_csv(dict_list: dict, order: list[str]) -> dict:
         ordered_dict["negative"] = keys_negative
     return ordered_dict
 
-def get_csv_ordered(path_csv: Path = None)  -> list[dict]:
+def get_csv_ordered(path_csv: Path = None)  -> List[dict]:
     ''' Get ordered CSV file 
     path_csv: path of CSV file
     return: list of dictionaries
