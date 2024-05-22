@@ -1,0 +1,14 @@
+[project]
+name = "nx_promptstyler"
+description = "A custom node for ComfyUI to create a prompt based on a list of keywords saved in CSV files."
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Franck-Demongin/NX_PromptStyler"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "NX_PromptStyler"
+Icon = ""
